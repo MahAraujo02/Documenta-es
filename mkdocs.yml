@@ -1,0 +1,26 @@
+site_name: GLPI e MKDOCS
+nav:
+   - Home: index.md
+   - "GLPI": 
+      - Instalação: glpi/instalaçao.md
+      - Meu GLPI: glpi/configuraçoes.md
+   - 'MkDocs':
+      - Instalaçao e configurações: mkdocs.md
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/weather-night
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:      
+    -navigation.sections
+        
+copyright: |
+  &copy; 2024 <a href="https://github.com/MahAraujo02"  target="_blank" rel="noopener">Maria Tereza</a>
